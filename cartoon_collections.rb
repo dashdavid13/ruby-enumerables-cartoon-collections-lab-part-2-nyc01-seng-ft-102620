@@ -36,5 +36,20 @@ def find_valid_calls(planeteer_calls)
    planeteer_calls.find do |element|
      planeteer_calls.include?(element)
       
+      
+      def find_the_cheese(array)
+  array.find do |cheese|
+    cheese == "cheddar" || cheese == "gouda" || cheese == "camembert"
+  end
+end
   end 
 end
+
+def find_valid_calls(planeteer_calls)
+  
+
+
+
+
+
+
