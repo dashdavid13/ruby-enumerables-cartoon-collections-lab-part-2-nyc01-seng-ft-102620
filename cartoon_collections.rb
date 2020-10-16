@@ -9,6 +9,13 @@ def square_array(array)
   # Return a new array of the results
 end
 
+def square_array(array)
+  new_array
+  array.each do |index|
+    new_array << index * index 
+  end 
+end 
+
 def summon_captain_planet(planeteer_calls)
   # Use an Enumerable to capitalize and add '!' to every element in the passed in array
   # Return a new array of the results
