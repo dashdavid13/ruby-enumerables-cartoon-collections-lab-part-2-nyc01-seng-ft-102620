@@ -33,7 +33,7 @@ end
   
 def find_valid_calls(planeteer_calls)
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
-   planeteer_calls.find do |element|
+   valid_calls.find do |element|
      planeteer_calls.include?(element)
       
       
@@ -46,6 +46,11 @@ end
 end
 
 def find_valid_calls(planeteer_calls)
+  valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
+  array.find do |cheese|
+    cheese == "cheddar" || cheese == "gouda" || cheese == "camembert"
+  end
+end 
   
 
 
