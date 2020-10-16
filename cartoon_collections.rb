@@ -21,7 +21,7 @@ end
   # Return the boolean result of this check
 def long_planeteer_calls(planeteer_calls)
  planeteer_calls.collect do |character|
-   if character > 4 
+   if character > character.length = 4 
      true 
    else 
      false 
